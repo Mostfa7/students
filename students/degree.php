@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <script type="text/javascript" src="js/bootstrap.js"></script>
-    <title>Document</title>
+    <title>Degree</title>
 </head>
 <body>
     
@@ -59,20 +59,7 @@ margin-top: 4rem;
   <?php 
              
              Get_subjects($_SESSION['email'],$_SESSION['password']);
-         ?>    <!-- </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody> -->
+         ?>    
 </table>
 </div>
 
@@ -96,16 +83,7 @@ margin-top: 6rem;"  >
  
       <caption style="background-color: #212529;">FIRST EXAM</caption>
 
-<!-- <table class="table table-light" style="color:
-#fff;
-background-color:
-#212529;
-width: 100%;
-margin-left: 8rem;
-width: 56.5rem;
-align-self:center;
-"> -->
-   
+
   </thead>
   <tbody>
     
@@ -116,7 +94,6 @@ align-self:center;
       <th scop=col>GRADE</th>
 </tr>
 <?php
-// get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
 view_marks_first_exam($_SESSION['email'],$_SESSION['password']);
 
 ?>  
@@ -133,15 +110,7 @@ view_marks_first_exam($_SESSION['email'],$_SESSION['password']);
       <caption style="background-color: #212529;">SECOND EXAM</caption>
 <div class="dis" style="display: flex;
 justify-content: center;height: 22rem;"  > 
-<!-- <table class="table table-light" style="color:
-#fff;
-background-color:
-#212529;
-width: 100%;
-margin-left: 8rem;
-width: 56.5rem;
-align-self:center;
-"> -->
+
    
   </thead>
   <tbody>
@@ -153,7 +122,6 @@ align-self:center;
       <th scop=col>GRADE</th>
 </tr>
 <?php
-// get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
 view_marks_second_exam($_SESSION['email'],$_SESSION['password']);
 
 ?>  
@@ -176,15 +144,7 @@ justify-content: center;height: 22rem;
 
 
 "  > 
-<!-- <table class="table table-light" style="color:
-#fff;
-background-color:
-#212529;
-width: 100%;
-margin-left: 8rem;
-width: 56.5rem;
-align-self:center;
-"> -->
+
    
   </thead>
   <tbody>
@@ -196,7 +156,6 @@ align-self:center;
       <th scop=col>GRADE</th>
 </tr>
 <?php
-// get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
 view_marks_final_exam($_SESSION['email'],$_SESSION['password']);
 
 ?>  
@@ -248,16 +207,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       
       
       "  > 
-      <!-- <table class="table table-light" style="color:
-      #fff;
-      background-color:
-      #212529;
-      width: 100%;
-      margin-left: 8rem;
-      width: 56.5rem;
-      align-self:center;
-      "> -->
-         
+     
         </thead>
         <tbody>
           
@@ -268,9 +218,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
             <th scop=col>GRADE</th>
       </tr>
       <?php
-      // get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
-      // view_marks_final_exam($_SESSION['email'],$_SESSION['password']);
-            // get_all_marks_by_year($_SESSION['email'],$_SESSION['password'],1);
+      
             Get_marks_first_exam($_SESSION['email'],$_SESSION['password'],1);
       ?>  
         </tbody>
@@ -288,15 +236,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       
       
       "  > 
-      <!-- <table class="table table-light" style="color:
-      #fff;
-      background-color:
-      #212529;
-      width: 100%;
-      margin-left: 8rem;
-      width: 56.5rem;
-      align-self:center;
-      "> -->
+     
          
         </thead>
         <tbody>
@@ -308,9 +248,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
             <th scop=col>GRADE</th>
       </tr>
       <?php
-      // get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
-      // view_marks_final_exam($_SESSION['email'],$_SESSION['password']);
-            // get_all_marks_by_year($_SESSION['email'],$_SESSION['password'],1);
+     
             Get_marks_second_exam($_SESSION['email'],$_SESSION['password'],1);
       ?>  
         </tbody>
@@ -328,15 +266,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       
       
       "  > 
-      <!-- <table class="table table-light" style="color:
-      #fff;
-      background-color:
-      #212529;
-      width: 100%;
-      margin-left: 8rem;
-      width: 56.5rem;
-      align-self:center;
-      "> -->
+    
          
         </thead>
         <tbody>
@@ -348,9 +278,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
             <th scop=col>GRADE</th>
       </tr>
       <?php
-      // get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
-      // view_marks_final_exam($_SESSION['email'],$_SESSION['password']);
-            // get_all_marks_by_year($_SESSION['email'],$_SESSION['password'],1);
+    
             Get_marks_final($_SESSION['email'],$_SESSION['password'],1);
       ?>  
         </tbody>
@@ -384,15 +312,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       
       
       "  > 
-      <!-- <table class="table table-light" style="color:
-      #fff;
-      background-color:
-      #212529;
-      width: 100%;
-      margin-left: 8rem;
-      width: 56.5rem;
-      align-self:center;
-      "> -->
+     
          
         </thead>
         <tbody>
@@ -404,9 +324,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
             <th scop=col>GRADE</th>
       </tr>
       <?php
-      // get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
-      // view_marks_final_exam($_SESSION['email'],$_SESSION['password']);
-            // get_all_marks_by_year($_SESSION['email'],$_SESSION['password'],1);
+     
             Get_marks_first_exam($_SESSION['email'],$_SESSION['password'],2);
       ?>  
         </tbody>
@@ -424,15 +342,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       
       
       "  > 
-      <!-- <table class="table table-light" style="color:
-      #fff;
-      background-color:
-      #212529;
-      width: 100%;
-      margin-left: 8rem;
-      width: 56.5rem;
-      align-self:center;
-      "> -->
+      
          
         </thead>
         <tbody>
@@ -464,16 +374,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       
       
       "  > 
-      <!-- <table class="table table-light" style="color:
-      #fff;
-      background-color:
-      #212529;
-      width: 100%;
-      margin-left: 8rem;
-      width: 56.5rem;
-      align-self:center;
-      "> -->
-         
+     
         </thead>
         <tbody>
           
@@ -484,9 +385,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
             <th scop=col>GRADE</th>
       </tr>
       <?php
-      // get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
-      // view_marks_final_exam($_SESSION['email'],$_SESSION['password']);
-            // get_all_marks_by_year($_SESSION['email'],$_SESSION['password'],1);
+      
             Get_marks_final($_SESSION['email'],$_SESSION['password'],2);
       ?>  
         </tbody>
@@ -494,10 +393,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       </table>
       </div>
       </div>
-      <?php
-      //Get_marks($_SESSION['email'],$_SESSION['password'],1);
-      // get_all_marks_by_year($_SESSION['email'],$_SESSION['password'],2); memo
-      ?>
+     
 
       </div>
     </div>
@@ -527,15 +423,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       
       
       "  > 
-      <!-- <table class="table table-light" style="color:
-      #fff;
-      background-color:
-      #212529;
-      width: 100%;
-      margin-left: 8rem;
-      width: 56.5rem;
-      align-self:center;
-      "> -->
+     
          
         </thead>
         <tbody>
@@ -547,9 +435,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
             <th scop=col>GRADE</th>
       </tr>
       <?php
-      // get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
-      // view_marks_final_exam($_SESSION['email'],$_SESSION['password']);
-            // get_all_marks_by_year($_SESSION['email'],$_SESSION['password'],1);
+      
             Get_marks_first_exam($_SESSION['email'],$_SESSION['password'],3);
       ?>  
         </tbody>
@@ -567,15 +453,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       
       
       "  > 
-      <!-- <table class="table table-light" style="color:
-      #fff;
-      background-color:
-      #212529;
-      width: 100%;
-      margin-left: 8rem;
-      width: 56.5rem;
-      align-self:center;
-      "> -->
+     
          
         </thead>
         <tbody>
@@ -587,9 +465,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
             <th scop=col>GRADE</th>
       </tr>
       <?php
-      // get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
-      // view_marks_final_exam($_SESSION['email'],$_SESSION['password']);
-            // get_all_marks_by_year($_SESSION['email'],$_SESSION['password'],1);
+     
             Get_marks_second_exam($_SESSION['email'],$_SESSION['password'],3);
       ?>  
         </tbody>
@@ -607,15 +483,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       
       
       "  > 
-      <!-- <table class="table table-light" style="color:
-      #fff;
-      background-color:
-      #212529;
-      width: 100%;
-      margin-left: 8rem;
-      width: 56.5rem;
-      align-self:center;
-      "> -->
+      
          
         </thead>
         <tbody>
@@ -627,9 +495,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
             <th scop=col>GRADE</th>
       </tr>
       <?php
-      // get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
-      // view_marks_final_exam($_SESSION['email'],$_SESSION['password']);
-            // get_all_marks_by_year($_SESSION['email'],$_SESSION['password'],1);
+    
             Get_marks_final($_SESSION['email'],$_SESSION['password'],3);
       ?>  
         </tbody>
@@ -663,15 +529,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       
       
       "  > 
-      <!-- <table class="table table-light" style="color:
-      #fff;
-      background-color:
-      #212529;
-      width: 100%;
-      margin-left: 8rem;
-      width: 56.5rem;
-      align-self:center;
-      "> -->
+    
          
         </thead>
         <tbody>
@@ -683,9 +541,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
             <th scop=col>GRADE</th>
       </tr>
       <?php
-      // get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
-      // view_marks_final_exam($_SESSION['email'],$_SESSION['password']);
-            // get_all_marks_by_year($_SESSION['email'],$_SESSION['password'],1);
+    
             Get_marks_first_exam($_SESSION['email'],$_SESSION['password'],4);
       ?>  
         </tbody>
@@ -703,15 +559,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       
       
       "  > 
-      <!-- <table class="table table-light" style="color:
-      #fff;
-      background-color:
-      #212529;
-      width: 100%;
-      margin-left: 8rem;
-      width: 56.5rem;
-      align-self:center;
-      "> -->
+     
          
         </thead>
         <tbody>
@@ -723,9 +571,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
             <th scop=col>GRADE</th>
       </tr>
       <?php
-      // get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
-      // view_marks_final_exam($_SESSION['email'],$_SESSION['password']);
-            // get_all_marks_by_year($_SESSION['email'],$_SESSION['password'],1);
+     
             Get_marks_second_exam($_SESSION['email'],$_SESSION['password'],4);
       ?>  
         </tbody>
@@ -743,15 +589,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       
       
       "  > 
-      <!-- <table class="table table-light" style="color:
-      #fff;
-      background-color:
-      #212529;
-      width: 100%;
-      margin-left: 8rem;
-      width: 56.5rem;
-      align-self:center;
-      "> -->
+    
          
         </thead>
         <tbody>
@@ -763,9 +601,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
             <th scop=col>GRADE</th>
       </tr>
       <?php
-      // get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
-      // view_marks_final_exam($_SESSION['email'],$_SESSION['password']);
-            // get_all_marks_by_year($_SESSION['email'],$_SESSION['password'],1);
+     
             Get_marks_final($_SESSION['email'],$_SESSION['password'],4);
       ?>  
         </tbody>
@@ -798,15 +634,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       
       
       "  > 
-      <!-- <table class="table table-light" style="color:
-      #fff;
-      background-color:
-      #212529;
-      width: 100%;
-      margin-left: 8rem;
-      width: 56.5rem;
-      align-self:center;
-      "> -->
+     
          
         </thead>
         <tbody>
@@ -818,9 +646,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
             <th scop=col>GRADE</th>
       </tr>
       <?php
-      // get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
-      // view_marks_final_exam($_SESSION['email'],$_SESSION['password']);
-            // get_all_marks_by_year($_SESSION['email'],$_SESSION['password'],1);
+      
             Get_marks_first_exam($_SESSION['email'],$_SESSION['password'],5);
       ?>  
         </tbody>
@@ -838,16 +664,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       
       
       "  > 
-      <!-- <table class="table table-light" style="color:
-      #fff;
-      background-color:
-      #212529;
-      width: 100%;
-      margin-left: 8rem;
-      width: 56.5rem;
-      align-self:center;
-      "> -->
-         
+    
         </thead>
         <tbody>
           
@@ -858,9 +675,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
             <th scop=col>GRADE</th>
       </tr>
       <?php
-      // get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
-      // view_marks_final_exam($_SESSION['email'],$_SESSION['password']);
-            // get_all_marks_by_year($_SESSION['email'],$_SESSION['password'],1);
+     
             Get_marks_second_exam($_SESSION['email'],$_SESSION['password'],5);
       ?>  
         </tbody>
@@ -878,15 +693,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
       
       
       "  > 
-      <!-- <table class="table table-light" style="color:
-      #fff;
-      background-color:
-      #212529;
-      width: 100%;
-      margin-left: 8rem;
-      width: 56.5rem;
-      align-self:center;
-      "> -->
+     
          
         </thead>
         <tbody>
@@ -898,9 +705,7 @@ justify-content: center;height: 22rem;margin-left: 28rem;"  >
             <th scop=col>GRADE</th>
       </tr>
       <?php
-      // get_uncommn_subject($_SESSION['email'],$_SESSION['password']);
-      // view_marks_final_exam($_SESSION['email'],$_SESSION['password']);
-            // get_all_marks_by_year($_SESSION['email'],$_SESSION['password'],1);
+    
             Get_marks_final($_SESSION['email'],$_SESSION['password'],5);
       ?>  
         </tbody>
