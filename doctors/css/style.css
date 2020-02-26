@@ -1,0 +1,92 @@
+body {
+
+background-image: url('vasily-koloda-8CqDvPuo_kI-unsplash.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+.container{
+
+
+/* box-shadow: 0 5px 15px
+rgba(0,0,0,.5); */
+overflow: hidden;
+height: 36rem;
+width: 80rem;
+display: flex;
+justify-content: center;
+height: 36rem;
+align-items: center;
+}
+
+.full-container{
+display: flex;
+justify-content: center;
+height: 46rem;
+align-items: center;
+}
+.form-login{
+
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+    
+    height: 27rem;
+    
+    width: 29rem;
+    
+    display: grid;
+    
+    justify-content: center;
+    
+    align-items: center;
+
+}
+.text1{
+    margin-bottom: -13rem;
+    margin-top: -15rem;
+height: 2rem;
+
+width: 12rem;
+}
+.text2{
+    margin-top: -6rem;
+
+height: 2rem;
+
+width: 12rem;
+}
+
+.sub-mit{
+    margin-top: -10rem;
+
+    height: 2.5rem;
+    
+    width: 5rem;
+    
+    border:
+    navajowhite;
+    
+    background-color:
+    black;
+    
+    color:
+    white;
+    
+    font-size: 1rem;
+    
+    font-family: lato;
+    
+    text-transform: uppercase;
+}
+
+
+.form-img{
+
+    margin-left:3rem;
+}
+
+
+
+
+
+
+
+
