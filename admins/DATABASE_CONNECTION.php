@@ -1,10 +1,6 @@
 <?php
 /**
  * DATABASE CONNECTION
- * 
- * 
- * 
- * 
  */
 $HOSTNAME = "localhost";
 $DBNAME = "sums";
